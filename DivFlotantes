@@ -1,0 +1,46 @@
+<!doctype> 
+<html>
+	<head>
+		<title>Flotantes!!..:)</title>
+		<style>
+		.flotantes
+		{
+		    width:100px;
+			height:50px;
+			float:right;
+			margin:50px 30px 15px 20px; 
+		}
+		.flotantes_smargen
+		{
+		   /*Flotantes sin margen*/
+		    width:100px;
+			height:50px;
+			float:left;
+			
+		}
+		</style>
+	</head>
+	<body>
+	    <div class="flotantes" style="background-color:red;"></div>
+		<div class="flotantes" style="background-color:black;"></div>
+		<div class="flotantes" style="background-color:green;"></div>
+		<div class="flotantes" style="background-color:gray;"></div>
+		<div class="flotantes" style="background-color:blue;"></div>
+		<div class="flotantes" style="background-color:orange;"></div>
+		<div class="flotantes" style="background-color:pink;"></div>
+		<div class="flotantes" style="background-color:yellow;"></div>
+		<div class="flotantes" style="background-color:purple;"></div>
+		<div class="flotantes" style="background-color:gray;"></div>
+		<div class="flotantes" style="background-color:blue;"></div>
+		<div class="flotantes" style="background-color:orange;"></div>
+		<div class="flotantes" style="background-color:black;"></div>
+
+        <div class="flotantes_smargen" style="background-color:red;"></div>
+		<div class="flotantes_smargen" style="background-color:black;"></div>
+		<div class="flotantes_smargen" style="background-color:green;"></div>
+		<div class="flotantes_smargen" style="background-color:gray;"></div>
+		<div class="flotantes_margen" style="background-color:blue;"></div>
+		<div class="flotantes_smargen" style="background-color:orange;"></div>
+			
+	</body>
+</html>
