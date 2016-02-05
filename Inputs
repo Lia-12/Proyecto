@@ -1,0 +1,70 @@
+<!doctype>
+<html>
+	<head>
+	</head>
+	<body>
+	<h1>CAMPOS DE TEXTO</h1>
+		<input type="text" name="cajatwet" id="cajatwet" maxlength="5"/>
+		<input type="date" name="cajafecha" id="cajafecha"/>
+		<input type="password" name="cajapass" id="cajapass"/>
+		<input type="email" name="cajaemail" id="cajaemail"/>
+	<h1>CAMPOS MARCADO</h1>
+	    <h2>Checkboxes</h2>
+			<input type="checkbox" name="seleccion" id="seleccion" checked="checked"/>
+			<input type="checkbox" name="seleccion2" id="seleccion2"/>
+		<h2>Radios y Label</h2>
+		    <input type="radio" name="equipo" id="equipo1"/>
+            <label for="equipo1">HP</label>
+			<input type="radio" name="equipo" id="equipo2"/>
+			<label for="equipo2">VAIO</label>	
+			<br></br>
+			<input type="radio" name="marca" id="marca1"/>
+			<input type="radio" name="marca" id="marca2"/>
+		<h2>Desplegable</h2>
+		    <select name="mascotas">
+		        <optgroup label="Perros">
+				    <option value="Max">Max</option>
+					<option value="Copito">Copito</option>
+					<option value="Aleman">Aleman</option>
+				</optgroup>
+				<optgroup label="Gatos">
+				    <option value="Perla">Perla</option>
+					<option value="Mixx">Mixx</option>
+					<option value="Peludo">Peludo</option>
+				</optgroup>
+			</select>
+	<h1>CAMPOS AREA DE TEXTO</h1>
+	    <textarea name="area1" rows="5" cols="100">ksdhfioernh0cfiorjm kjdfhv9eriojfkl3cmweoiejeso kfhcnoeiwchfoiaewhrc  knjdsksljd9 asdhkjfskr jcfnidhv,xdnoajf djshhuis sjxkn kfdvhzhvo sampsfjnisd lcioshxkins kcksdpa9s cxmnsdikhc ,xcposjdc dvkssdjc aukhcjdcnuec xc nsdkjck ckSUDHCD ,JHILASHDHKU Cskneur cnsdujjchekz
+kjdhcioseudlwxekufoamx ajsos eseuifh se-resizescis dishei jzhcskn oshsdcvsdc dchbsnxs jsxbszui nxjskniz kz,xoia zkjczdk,kjzjcd kjddcb zkcn
+</textarea>
+    
+	<h1>BOTONES</h1>
+		<input type="submit" name="sumit" value="Submit"/>
+		<input type="button" name="boton1" value="Boton"/>	
+	
+	<h1>FORMULARIO</h1>
+	    <form id="El formulario" action="registro_mascota.html" method="POST">
+			 Nombre:<input type="text" name="cajanombre" id="cajanombre" maxlength="15"><br>
+			 Genero:<input type="radio" name="genero" id="genero1"/>
+					<label for="genero1">Hembra</label>
+					<input type="radio" name="genero" id="genero2"/>
+					<label for="genero2">Macho</label>	
+					<br>
+			 Raza:  <select name="mascotas">
+						<optgroup label="Raza Grande">
+							<option value="Max">Aleman</option>
+							<option value="Copito">Grandaness</option>
+							<option value="Aleman">Dalmata</option>
+						</optgroup>	
+						<optgroup label="Raza Pequeña">
+							<option value="Max">Peluche</option>
+							<option value="Copito">Chihuahua</option>
+							<option value="Aleman">french</option>
+						</optgroup>	
+					</select>
+					<br>
+			 Edad:  <input type="number" name="edad" id="numero"/><br>
+			        <input type="submit" id="sumit" action="mascotas.html"/>
+		</form>
+	</body>
+</html>
