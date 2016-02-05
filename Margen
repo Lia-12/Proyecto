@@ -1,0 +1,29 @@
+<!doctype> 
+<html>
+	<head>
+		<title>Margen!!..:)</title>
+		<style>
+		.marginados
+		{
+			height:300px;
+			background-color:red;
+			margin-top:50px; /*margen arriba*/
+			margin-right:50px; /*margen derecha*/
+			margin-bottom:50px;  /*margen abajo*/
+			margin-left:50px;  /*margen izquierda*/	                   
+		}
+		.marginado_enlinea
+		{
+			height:300px;
+			background-color:red;
+			margin:50px 30px 15px 20px; 
+				                   
+		}
+		</style>
+	</head>
+	<body>
+	    <div class="marginados"></div>
+		<div class="marginados"></div>
+		<div class="marginado_enlinea"></div>
+	</body>
+</html>
