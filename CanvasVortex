@@ -1,0 +1,42 @@
+<!Doctype>
+<html>
+	<head>
+		<script src="jquery-min.js"></script>
+		<script>
+		    var lienzo;
+			var contexto;
+			$(document).ready(function (event)
+			{
+			    lienzo=document.getElementById("lienzo");
+				contexto=lienzo.getContext("2d");
+				contexto.fillStyle="#000000";
+				contexto.fillRect(0, 0, 600, 900);
+				dibujaVortex();
+				/*contexto.strokeStyle="#00FF00";
+				contexto.moveTo(100, 50);
+				contexto.lineTo(200, 130);
+				contexto.stroke();*/
+			});
+			function dibujaVortex()
+			{
+			    var pasos=50;
+				var ancho=600;
+				var alto=900;
+				var horiz=ancho/pasos;
+				var vert=alto/pasos;
+				for(var i=0;i<pasos;i++)
+				{
+				    contexto.moveTo(0, vert*i);
+				    contexto.lineTo(horiz*i, alto);
+					contexto.strokeStyle="#00FF69";
+					contexto.stroke();
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<canvas id="lienzo" width="600px" height="900px">
+		Tu navegador no me gusta!
+	</body>
+</html>
