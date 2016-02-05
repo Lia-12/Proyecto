@@ -1,0 +1,19 @@
+<!doctype>
+<html>
+	<head>
+		<script src="jquery-min.js"></script>
+		<script>
+		    function entrar(){
+			$("#panel").slideDown();
+			}
+		    function salir(){
+			$("#panel").slideUp();
+			}
+		</script>
+	</head>
+	<body>
+    <div id="panel" style="height:500px;width:500px;background-color:red;"></div>
+    <input type="button" onclick="entrar()" value="entrada">
+	<input type="button" onclick="salir()" value="salida">
+	</body>
+</html>
