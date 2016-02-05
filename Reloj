@@ -1,0 +1,17 @@
+<!doctype>
+<html>
+<head>
+<script src="jquery-min.js"></script>
+<script>
+function muestraHora()
+{
+    $("#reloj").html(new Date());
+	setTimeout(muestraHora,1000)
+}
+</script>
+</head>
+<body>
+<div id="reloj"></div>
+<input type="button" value="Reloj" onclick="muestraHora()">
+</body>
+</html>
